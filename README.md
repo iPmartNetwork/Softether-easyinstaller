@@ -21,7 +21,7 @@
 
 ## Table of Contents
 
-- [Features](#فهرست مطالب)
+- [Features](#Features )
 - [Install & Update](#install)
 - [Uninstall](#uninstall)
 - [Update](#update)
