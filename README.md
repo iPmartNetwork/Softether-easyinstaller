@@ -19,7 +19,7 @@
 همراه با تنضیمات مورد نیاز و نصب bbr 
 
 
-## Table of Contents
+## منوی سریع
 
 - [Features](#Features )
 - [Install & Update](#install)
@@ -46,7 +46,7 @@
 
 
 
-## Install
+## نصب
 
 <details>
   <summary>Click here for Install & Update details</summary>
@@ -70,7 +70,7 @@ The installation process may take several minutes depending on your system and n
 </details>
 
 
-## Uninstall
+## حذف نصب
 
 <details>
   <summary>Uninstall</summary>
@@ -137,7 +137,7 @@ sudo ufw deny 500,4500,8280,53/udp
 </details>
 </details>
 
-## Update
+## بروزرسانی
 
 If you already have Softether installed on your server but want to update it to the latest version you can use the install code.
 the script now makes a backup, update, and restore your backup.
