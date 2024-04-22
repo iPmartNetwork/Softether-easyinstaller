@@ -21,7 +21,7 @@
 
 ## Table of Contents
 
-- [Features](#features)
+- [Features](#فهرست مطالب)
 - [Install & Update](#install)
 - [Uninstall](#uninstall)
 - [Update](#update)
@@ -30,7 +30,7 @@
 - [Disclaimer](#disclaimer)
 - [Certificate](#certificate)
 
-## Features
+## فهرست مطالب
 
 - Updates your Linux system and installs some useful tools such as Certbot, Ncat, and Net-tools.
 - Downloads and compiles the latest version of SoftEther VPN Server (v4.43-9799-rtm-2023.08.31) from the official website.
