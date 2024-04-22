@@ -19,9 +19,9 @@
 همراه با تنضیمات مورد نیاز و نصب bbr 
 
 
-## منوی سریع
+## Table of Contents
 
-- [Features](#Features )
+- [Features](#features)
 - [Install & Update](#install)
 - [Uninstall](#uninstall)
 - [Update](#update)
@@ -30,23 +30,23 @@
 - [Disclaimer](#disclaimer)
 - [Certificate](#certificate)
 
-## فهرست مطالب
+## Features
 
-سیستم لینوکس شما را به روز می کند و ابزارهای مفیدی مانند Certbot، Ncat و Net-tools را نصب می کند.
-آخرین نسخه SoftEther VPN Server (v4.43-9799-rtm-2023.08.31) را از وب سایت رسمی دانلود و کامپایل می کند.
-یک سرویس systemd برای سرور SoftEther VPN ایجاد می کند و آن را قادر می سازد در هنگام بوت شروع شود.
-انتقال IPv4 را برای ترافیک VPN فعال می کند.
-پورت های لازم برای پروتکل های VPN را با استفاده از فایروال ufw باز می کند.
-سرور SoftEther VPN را بدون از دست دادن تنظیمات به روز کنید (مراقب باشید)
-در صورت تمایل، یک گواهی از Let's Encrypt با استفاده از Certbot برای اتصالات VPN ایمن تنظیم کنید.
-به صورت اختیاری، BBR را نصب می کند.
-به صورت اختیاری، DDns (Dynamic DNS) را غیرفعال کنید
-
-
+- Updates your Linux system and installs some useful tools such as Certbot, Ncat, and Net-tools.
+- Downloads and compiles the latest version of SoftEther VPN Server (v4.43-9799-rtm-2023.08.31) from the official website.
+- Creates a systemd service for SoftEther VPN Server and enables it to start on boot.
+- Enables IPv4 forwarding for VPN traffic.
+- Opens the necessary ports for VPN protocols using ufw firewall.
+- Update  SoftEther VPN Server without losing config(Be careful)
+- Optionally, set up a certificate from Let's Encrypt using Certbot for secure VPN connections.
+- Optionally, installs BBR.
+- Optionally, disable DDns(Dynamic DNS)
 
 
 
-## نصب
+
+
+## Install
 
 <details>
   <summary>Click here for Install & Update details</summary>
@@ -70,7 +70,7 @@ The installation process may take several minutes depending on your system and n
 </details>
 
 
-## حذف نصب
+## Uninstall
 
 <details>
   <summary>Uninstall</summary>
@@ -137,7 +137,7 @@ sudo ufw deny 500,4500,8280,53/udp
 </details>
 </details>
 
-## بروزرسانی
+## Update
 
 If you already have Softether installed on your server but want to update it to the latest version you can use the install code.
 the script now makes a backup, update, and restore your backup.
